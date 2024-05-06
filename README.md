@@ -63,12 +63,12 @@ Explore the API endpoints and their functionalities through the Swagger Documena
 ```json
 {
     "caption": {
-        "text": "a cartoon of a couple of red tags",
-        "confidence": 0.5857794284820557
+        "text": "a cartoon rabbit sitting on a white background",
+        "confidence": 0.7668482065200806
     },
     "metadata": {
-        "width": 750,
-        "height": 350
+        "width": 187,
+        "height": 270
     }
 }
 ```
