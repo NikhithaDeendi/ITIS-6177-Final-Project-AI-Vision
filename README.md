@@ -3,13 +3,12 @@
 
 ### List of Contents
 - [Overview](#overview)
-- [Tools Utilized](#tools Utilized)
+- [Tools Utilized](#toolsUtilized)
 - [Onboarding](#onboarding)
-- [Sample Response](#sample Response)
+- [Sample Response](#sampleResponse)
 - [Endpoints](#endpoints)
-- [Response Codes](#response Codes)
-- [Endpoints](#Endpoints)
-- [Limitations]
+- [Limitations](#limitations)
+- [Response Codes](#responsecodes)
 
 
 ## Overview
