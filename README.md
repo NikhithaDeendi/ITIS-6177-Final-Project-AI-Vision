@@ -39,23 +39,17 @@ Explore the API endpoints and their functionalities through the Swagger Documena
 ### Steps
 1. Open Postman and create a new request.
 
-![Postman New Request]([https://i.iEndpoint =mgur.com/HD7vEjA.png](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-1.png?raw=true))
+2. Enter the base URL along with the required . Change the request type to POST.
 
-2. Enter the base URL along with the required [endpoint](#endpoints). Change the request type to POST.
-
-![Postman Change Request Type](https://i.imgur.com/vh5q66Q.png)
 
 3. Navigate to Body and select *form-data*. Now add the key as "image" and change type to *File* from *Text*
 
-![Postman Change File Type](https://i.imgur.com/t1I5I6v.png)
 
 4. Click on *Select Files* under Value field and select an image (JPG, PNG, GIF, or BMP) from your system. Once selected, hit the Send button.
 
-![Vibing Cat](https://s5.gifyu.com/images/SiWE9.gif)
 
 5. And voila! You've got your first API response! 🎉
 
-![Voila!](https://i.imgur.com/Xnjreoy.png)
 
 
 ### Sample Response
