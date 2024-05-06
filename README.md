@@ -39,7 +39,7 @@ Explore the API endpoints and their functionalities through the Swagger Documena
 ### Steps
 1. Open Postman and create a new request.
 
-![Postman New Request](https://i.iEndpoint =mgur.com/HD7vEjA.png)
+![Postman New Request]([https://i.iEndpoint =mgur.com/HD7vEjA.png](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-1.png?raw=true))
 
 2. Enter the base URL along with the required [endpoint](#endpoints). Change the request type to POST.
 
