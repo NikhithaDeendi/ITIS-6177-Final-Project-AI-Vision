@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "image-size": "^1.0.2",
+    "multer": "^1.4.5-lts.1",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "itis-6177-final-project",
+  "description": "Azure AI vision-Image Analysis",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "author": "Nikhitha Deendi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision.git"
+  },
+  "keywords": [
+    "Azure",
+    "AI",
+    "Vision",
+    "Image",
+    "Analysis"
+  ],
+  "bugs": {
+    "url": "https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/issues"
+  },
+  "homepage": "https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision#readme"
+}

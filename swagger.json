@@ -1,0 +1,138 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Azure AI Vision - Image Analysis API",
+    "description": "API for analysing images using Azure Cognitive servives",
+    "contact": {
+      "name": "Nikhitha Deendi",
+      "email": "ndeendi@uncc.edu"
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Endpoints",
+      "description": "Image-Analysis Endpoints"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "securityDefinitions": {},
+  "consumes": [
+    "multipart/form-data"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/identify-colors": {
+      "post": {
+        "tags":["Endpoints"],
+        "consumes": ["multipart/form-data"],
+        "produces": ["application/json"],
+        "description": "identify bright colors in an image.",
+        "parameters":[{
+          "in": "formData",
+          "name": "image",
+          "type": "file",
+          "description": "Upload an image of type jpg/png/gif or bmp.",
+          "required": true
+        }],
+        "responses": {
+          "200": {
+            "description": "Successful"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    
+    "/read-text": {
+      "post": {
+        "tags":["Endpoints"],
+        "consumes": ["multipart/form-data"],
+        "produces": ["application/json"],
+        "description": "Read all the text from an image.",
+        "parameters":[{
+          "in": "formData",
+          "name": "image",
+          "type": "file",
+          "description": "Upload an image of type jpg/png/gif or bmp.",
+          "required": true
+        }],
+        "responses": {
+          "200": {
+            "description": "Successful"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+
+    "/caption-generator": {
+      "post": {
+        "tags":["Endpoints"],
+        "consumes": ["multipart/form-data"],
+        "produces": ["application/json"],
+        "description": "Generate caption for an image.",
+        "parameters":[{
+          "in": "formData",
+          "name": "image",
+          "type": "file",
+          "description": "Upload an image of type jpg/png/gif or bmp.",
+          "required": true
+        }],
+        "responses": {
+          "200": {
+            "description": "Successful"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/tags-generator": {
+      "post": {
+        "tags":["Endpoints"],
+        "consumes": ["multipart/form-data"],
+        "produces": ["application/json"],
+        "description": "Generate tags for an image.",
+        "parameters":[{
+          "in": "formData",
+          "name": "image",
+          "type": "file",
+          "description": "Upload an image of type jpg/png/gif or bmp.",
+          "required": true
+        }],
+        "responses": {
+          "200": {
+            "description": "Successful"
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  }
+}
