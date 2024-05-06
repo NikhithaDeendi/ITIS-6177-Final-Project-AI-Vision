@@ -2,14 +2,14 @@
 
 
 ### List of Contents
-
-- Overview
-- Tools Utilized
-- Onboarding
-- Sample Response
-- Endpoints
-- Response Codes
-- Limitations
+- [Overview](#overview)
+- [Tools Utilized](#tools Utilized)
+- [Onboarding](#onboarding)
+- [Sample Response](#sample Response)
+- [Endpoints](#endpoints)
+- [Response Codes](#response Codes)
+- [Endpoints](#Endpoints)
+- [Limitations]
 
 
 ## Overview
@@ -78,11 +78,14 @@ Explore the API endpoints and their functionalities through the Swagger Documena
 **URL structure:**
 
 localhost:3000/<endpoint-here>
+
+| Method | Endpoint | Description |
+| :--------: | :------- | :------- |
     
-POST      -> Endpoint =  /identify-colors       -> Description: Identify bright colors in an image.
-POST      -> Endpoint =  /read-text             -> Description: Read all text from an image. 
-POST      -> Endpoint =  /caption-generator     -> Description: Generate caption for an image. 
-POST      -> Endpoint =  /tags-generator        -> Description: Generate tags for an image. 
+| POST | /identify-colors | Idenfify bright colors in an image. |
+| POST | /read-text | Read all text from an image. |
+| POST | /caption-generator | Generate caption for an image. |
+| POST | /tags-generator | Generate tags for an image. |
 
 
 
@@ -95,9 +98,10 @@ Ensure compliance with the following limitations:
 
 
  ## Response Codes
-200:  OK           -> Successful API call.
-400:  Bad Request  -> File-related issues or incorrect parameters.
-404:  Not Found    -> File not provided or incorrect endpoint.
-
+ | Status Code | Error Type | Description |
+| :--------: | :------- | :------- |
+| 200 | OK | Successful API call |
+| 400 | Bad Request | File-related issues or incorrect parameters. |
+| 404 | Not Found | File not provided or incorrect endpoint. |
 
 ## Thank you Professor! One of the intersting course in my masters.
