@@ -33,24 +33,28 @@ This documentation presents an API designed to facilitate Image Analysis using M
 
 Explore the API endpoints and their functionalities through the Swagger Documenation : (http://localhost:3000/docs/). This interface provides a comprehensive overview of available endpoints and their respective operations.
 
+
 ## Swagger Documenation endpoint: (http://localhost:3000/docs/)
+
+![Swagger Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/swagger%20image.png?raw=true)
+
 
 
 ### Steps
 1. Open Postman and create a new request.
+   ![Step 0 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-0.png?raw=true)
+
+2. Change the request from GET to POST. Enter the URL Endpoint(Example: http://localhost:3000/caption-generator)
    ![Step 1 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-1.png?raw=true)
 
+3. Go to Body and select *form-data* from the options and add the key as "image" and change type to *File*. Select an image (JPG, PNG, GIF, or BMP) from your system. Click on SEND.
+   ![Step 3 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-3.png?raw=true)
+   
+4. And yes! We have got our firt API response.
+   ![Step 4 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-4.png?raw=true)
 
-3. Enter the base URL along with the required . Change the request type to POST.
-
-
-4. Navigate to Body and select *form-data*. Now add the key as "image" and change type to *File* from *Text*
-
-
-5. Click on *Select Files* under Value field and select an image (JPG, PNG, GIF, or BMP) from your system. Once selected, hit the Send button.
-
-
-6. And voila! You've got your first API response! 🎉
+5. Lets compare/look how the image and generated caption is
+   ![Output Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/output.png?raw=true)
 
 
 
