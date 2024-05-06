@@ -7,7 +7,7 @@
 - [Onboarding](#onboarding)
 - [Postman Response](#postman-response)
 - [Endpoints](#endpoints)
-- [Limitations](#limitations)
+- [Validations & Limitations](#validations-&-limitations)
 - [Response Codes](#response-codes)
 
 
@@ -87,7 +87,7 @@ localhost:3000/<endpoint-here>
 
 
 
- ## Limitations
+ ## Validations & Limitations
 Ensure compliance with the following limitations:
 - Supported file formats: JPG, PNG, GIF, BMP.
 - Image resolution: 50x50 pixels to 16,000x16,000 pixels.
