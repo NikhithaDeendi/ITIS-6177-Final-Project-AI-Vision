@@ -5,7 +5,7 @@
 - [Overview](#overview)
 - [Tools Utilized](#tools-utilized)
 - [Onboarding](#onboarding)
-- [Sample Response](#sample-response)
+- [Postman Response](#postman-response)
 - [Endpoints](#endpoints)
 - [Limitations](#limitations)
 - [Response Codes](#response-codes)
@@ -57,7 +57,7 @@ Explore the API endpoints and their functionalities through the Swagger Documena
 
 
 
-### Sample Response
+### Postman Response
 **endpoint: http://localhost:3000/caption-generator**
 ```json
 {
@@ -103,4 +103,4 @@ Ensure compliance with the following limitations:
 | 400 | Bad Request | File-related issues or incorrect parameters. |
 | 404 | Not Found | File not provided or incorrect endpoint. |
 
-## Thank you Professor! One of the intersting course in my masters.
+## Thank you, Professor! This course has been one of the most intriguing ones in my master's program and Thank you to the  people who followed this.
