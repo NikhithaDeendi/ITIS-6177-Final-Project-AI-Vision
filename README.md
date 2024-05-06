@@ -79,8 +79,7 @@ Explore the API endpoints and their functionalities through the Swagger Documena
 localhost:3000/<endpoint-here>
 
 | Method | Endpoint | Description |
-| :--------: | :------- | :------- |
-    
+| :--------: | :------- | :------- |    
 | POST | /identify-colors | Idenfify bright colors in an image. |
 | POST | /read-text | Read all text from an image. |
 | POST | /caption-generator | Generate caption for an image. |
