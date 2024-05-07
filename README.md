@@ -41,7 +41,7 @@ Explore the API endpoints and their functionalities through the Swagger Documena
 
 ### Steps
 1. Open Postman and create a new request.
-   ![Step 0 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-0.png?raw=true)
+   ![Swagger doc Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/swagger%20doc.png?raw=true))
 
 2. Change the request from GET to POST. Enter the URL Endpoint(Example: http://localhost:3000/caption-generator)
    ![Step 1 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-1.png?raw=true)
