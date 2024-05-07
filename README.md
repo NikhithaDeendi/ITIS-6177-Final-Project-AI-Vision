@@ -30,29 +30,31 @@ This documentation presents an API designed to facilitate Image Analysis using M
 
 * Documentation and API Usage *
 
-Explore the API endpoints and their functionalities through the Swagger Documenation : (http://localhost:3000/docs/). This interface provides a comprehensive overview of available endpoints and their respective operations.
+Explore the API endpoints and their functionalities through the Swagger Documenation : (http://167.71.255.11:3000/docs/). This interface provides a comprehensive overview of available endpoints and their respective operations.
 
 
-## Swagger Documenation endpoint: (http://localhost:3000/docs/)
+## Swagger Documenation endpoint: ([http://167.71.255.11:3000/docs/])
 
-![Swagger Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/swagger%20image.png?raw=true)
+![Swagger doc Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/swagger%20doc.png?raw=true))
 
 
 
 ### Steps
 1. Open Postman and create a new request.
-   ![Swagger doc Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/swagger%20doc.png?raw=true))
+   ![Step 1 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-1.png?raw=true)
+    
+   
 
-2. Change the request from GET to POST. Enter the URL Endpoint(Example: [http://167.71.255.11:3000/caption-generator] )
+4. Change the request from GET to POST. Enter the URL Endpoint(Example: [http://167.71.255.11:3000/caption-generator] )
    ![Step 0 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-0.png?raw=true)
 
-3. Go to Body and select *form-data* from the options and add the key as "image" and change type to *File*. Select an image (JPG, PNG, GIF, or BMP) from your system. Click on SEND.
+5. Go to Body and select *form-data* from the options and add the key as "image" and change type to *File*. Select an image (JPG, PNG, GIF, or BMP) from your system. Click on SEND.
    ![Step 3 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-3.png?raw=true)
    
-4. And yes! We have got our firt API response.
+6. And yes! We have got our firt API response.
    ![Step 4 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-4.png?raw=true)
 
-5. Lets compare/look how the image and generated caption is
+7. Lets compare/look how the image and generated caption is
    ![Output Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/output.png?raw=true)
 
 
