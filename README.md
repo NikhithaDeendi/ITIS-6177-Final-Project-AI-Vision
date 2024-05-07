@@ -75,7 +75,7 @@ Explore the API endpoints and their functionalities through the Swagger Documena
 
 **URL structure:**
 
-http://167.71.255.11:3000/<endpoint-here>
+http://167.71.255.11:3000/<Endpoint-here>
 
 | Method | Endpoint | Description |
 | :--------: | :------- | :------- |    
