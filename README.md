@@ -53,8 +53,7 @@ Explore the API endpoints and their functionalities through the Swagger Documena
    ![Step 03 Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/step-03.png?raw=true)
 
 8. Lets compare/look how the image and generated caption is
-   ![Final Output Image](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/final-output.png?raw=true)
-
+   ![Final Output](https://github.com/NikhithaDeendi/ITIS-6177-Final-Project-AI-Vision/blob/main/FinalOutput.png?raw=true)
 
 
 ### Postman Response
@@ -76,7 +75,7 @@ Explore the API endpoints and their functionalities through the Swagger Documena
 
 **URL structure:**
 
-localhost:3000/<endpoint-here>
+http://167.71.255.11:3000/<endpoint-here>
 
 | Method | Endpoint | Description |
 | :--------: | :------- | :------- |    
