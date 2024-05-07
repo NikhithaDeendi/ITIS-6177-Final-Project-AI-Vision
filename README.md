@@ -101,4 +101,4 @@ Ensure compliance with the following limitations:
 | 400 | Bad Request | File-related issues or incorrect parameters. |
 | 404 | Not Found | File not provided or incorrect endpoint. |
 
-## Thank you, Professor! This course has been one of the most intriguing ones in my master's program and Thank you to the  people who followed this.
+## Thank you, Professor! This course has been one of the most intriguing ones in my master's program and I extend my gratitude to everyone who followed along.
